@@ -42,9 +42,5 @@ function registrarUsuario(event, tipoUsuario) {
       form.addEventListener('submit', (event) => registrarUsuario(event, 'vendedor'));
     });
   
-    // Formularios de inicio de sesión
-    document.querySelectorAll('.registro-fundacion form, .registro-cliente form, .registro-vendedor form').forEach((form) => {
-      form.addEventListener('submit', iniciarSesion);
-    });
   });
   
