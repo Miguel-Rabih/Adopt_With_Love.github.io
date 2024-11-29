@@ -20,7 +20,7 @@ function registrarUsuario(registrarse, tipoUsuario) {
     usuarios.push(usuario);
     localStorage.setItem('usuarios', JSON.stringify(usuarios));
 
-    window.location.href = '../templates/frame_18.html';
+    window.location.href = '/templates/frame_18.html';
 
     form.reset();
   }
