@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #001b48;
+    padding: 10px;
+    position: relative;
+    height: 10vh;
+    width: 100%;
+}
+
+section{
+    display: block;
+    margin-bottom: 20vh;
+}
+
+h1{
+    background-color: #008c8a;
+    position: relative;
+    left: 0;
+    width: 20%;
+    padding: 10px 20px 0;
+    font-size: 4.3vh;
+    font-family: roboto;
+    font-weight: bold;
+    left: -10px;
+}
+
+.dec {
+    position: absolute;
+    margin-right: 15vh;
+    top: 0px;
+    right: 44vh;
+    border-top: 7.8vh solid transparent;
+    border-right: 14vh solid #008c8a;
+    border-bottom: 0px solid transparent;
+    width: 0;
+    height: 0;
+    
+}
+
+.dec2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 59vh;
+    height: 60%;
+    background-color: #008c8a;
+    z-index: 10;
+}
+
+.blanco{
+    position: absolute;
+    right: 150px;
+    top: 30%;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    background-color: #ffffff;
+}
+
+
+.logo{
+    z-index: 20;
+    position: relative;
+    width: 10vh;
+    border-radius: 50%;
+    right: 20px;
+}
+
+.inicio{
+    position: relative;
+    top: 10vh;
+    height: 100vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: block;
+    background-image: url("../img/fondo_principal.jpeg");
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 20vh;
+}
+
+h2{
+    position: relative;
+    z-index: 10;
+    font-size: 64px;
+    top: 40vh;
+    background-color: rgba(0, 0, 0, 0.612);
+    width: 55vh;
+    height: 11%;
+    color: white;
+    text-align: center;
+}
+
+.divicion1{
+    position: relative;
+    top: -10vh;
+    background-color: #001b48;
+    width: 100%;
+    height: 10px;
+}
+
+.divicion2{
+    position: relative;
+    top: -2vh;
+    width: 100%;
+    height: 10px;
+    background-color: #001b48;
+}
+
+.publicacion{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contenedor{
+    background-color: #3d003c;
+    margin: 2% 10% 4% 10%;
+    height: auto;
+    border-radius: 57px;
+    padding: 5vh;
+}
+
+.menu ul{
+    display: flex;
+    background-color: #001b48;
+    margin-top: 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+.menu {
+    position: absolute;
+    display: flex;
+    justify-content: right;
+}
+.menu ul li {
+    list-style: none;
+    padding: 10px;
+}
+.menu ul li img{
+    border-radius: 20px;
+    background-color: #fff;
+}
+.menu img {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #000;
+}
+.menu ul li img:hover{
+    background-color: #00E0FF;
+}
+.cabecera_cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fad1d8;
+    border: solid 3.5px #9b172d;
+    border-radius: 55%;
+    width: 41px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 0 !important;
+}
+
+h3{
+    font-size: 36px;
+    
+}
+
+.go{
+    position: relative;
+    left: 70%;
+    
+}
+
+.go img{
+
+    margin-top: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41px !important;
+    height: 35px !important;
+    padding: 5px;
+}
+
+p{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 900;
+    margin: 3%;
+}
+
+.img_public{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    height: 50vh;
+    border-radius: 57px;
+}
+
+/* frame_20 */
+
+.fundacion{
+    position: relative;
+    top: 10vh;
+    height: 100vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: block;
+    background-image: url("../img/principal_fundacion.jpg");
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 20vh;
+}
+
+.hFundacion{
+    top: 10%;
+    right: 40%;
+}
+
+.contenedorF{
+    background-color: #3d003c;
+    margin: 2% 0 11% 0;
+    height: auto;
+    padding: 2% 10% 5% 10%;
+}
+
+/* frame_1 */
+
+#tipo_usuario{
+    background-image: url('../img/fondo_TU.jpg');
+    height: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.TU{
+    padding: 5% 0 8% 0;
+    position: relative;
+    left: 10%;
+    display: grid;
+    grid-template-columns: 30%  30%;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.TU button{
+    margin: 5%;
+    margin-left: 10%;
+    background-color: #00000085;
+    border-radius: 45px;
+    height: 50vh;
+    align-items: center;
+}
+
+.TU button img{
+    width: 70%;
+    height: 203px;
+    border-radius: 50%;
+}
+
+.TU button h1{
+    position: relative;
+    left: 15%;
+    width: 50%;
+    border-radius: 30px;
+    color: #fff;
+}
+
+/* frame_743 */
+
+.frame_743 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #61b4d4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-pagina {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    color: rgb(10, 0, 0);
+}
+
+.contenedor-registros {
+    display: flex0;
+    flex-direction: row;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.registro-fundacion,
+.registro-cliente,
+.registro-vendedor,
+.registro {
+
+    margin-top: 2%;
+    margin-bottom: 6%;
+    background-color: #005452;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.texto p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.username,
+.contraseña {
+    margin-top: 10px;
+}
+
+.username input,
+.contraseña input {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.recordar {
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #008c8a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.registrarse {
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media screen and (max-height: 620px) {
+    .dec {
+        right: 43.9vh;
+        border-top: 8.1vh solid transparent;
+    }
+}
+@media screen and (max-width: 600px) {
+    
+    h1{
+        width: 1%;
+        padding: 10px 20px 0;
+        font-size: 0.3vh;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+header{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #001b48;
+    padding: 10px;
+    position: relative;
+    height: 10vh;
+    width: 100%;
+}
+
+section{
+    display: block;
+    margin-bottom: 20vh;
+}
+
+h1{
+    background-color: #008c8a;
+    position: relative;
+    left: 0;
+    width: 20%;
+    padding: 10px 20px 0;
+    font-size: 4.3vh;
+    font-family: roboto;
+    font-weight: bold;
+    left: -10px;
+}
+
+.dec {
+    position: absolute;
+    margin-right: 15vh;
+    top: 0px;
+    right: 44vh;
+    border-top: 7.8vh solid transparent;
+    border-right: 14vh solid #008c8a;
+    border-bottom: 0px solid transparent;
+    width: 0;
+    height: 0;
+    
+}
+
+.dec2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 59vh;
+    height: 60%;
+    background-color: #008c8a;
+    z-index: 10;
+}
+
+.blanco{
+    position: absolute;
+    right: 150px;
+    top: 30%;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    background-color: #ffffff;
+}
+
+
+.logo{
+    z-index: 20;
+    position: relative;
+    width: 10vh;
+    border-radius: 50%;
+    right: 20px;
+}
+
+
+.menu ul{
+    display: flex;
+    background-color: #001b48;
+    margin-top: 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: right;
+}
+.menu ul li {
+    list-style: none;
+    padding: 10px;
+}
+.menu ul li img{
+    border-radius: 20px;
+    background-color: #fff;
+}
+.menu img {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #000;
+}
+.menu ul li img:hover{
+    background-color: #00E0FF;
+}
+
+.cont-todo{
+    overflow: hidden;
+    position: relative;
+    top: 3vh;
+    background-color: #013d61;
+    max-width: 80%;
+    border-radius: 10vh;
+}
+
+body {
+    background-image: url('img/fondo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+
+
+.contenedor-principal {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.tarjeta-mascota, .informacion-extra {
+    background-color:#013d61;
+    color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.tarjeta-mascota {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300vh;
+}
+
+.foto-mascota {
+    width: 90%;
+    height: auto;
+    border-radius: 100%;
+    z-index: 40;
+}
+
+.detalles-mascota{
+    background-color: #3d003c;
+    position: relative;
+    top: -16vh;
+    padding: 2vh;
+    padding-top: 20vh;
+    border-radius: 15px;
+}
+
+.informacion-extra {
+    margin-right: 4vh;
+    max-width: 70%;
+    font-size: 3vh;
+    margin-top: 1rem;
+}
+
+.contenedor-foto-principal {
+    width: 100%;
+    height: 60vh;
+    padding-bottom: 0;
+    overflow: hidden;
+
+}
+
+.foto-principal {
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+    border-radius:  0 0 10vh 10vh;
+}
+
+.boton-donacion {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #3d003c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton-donacion:hover {
+    background-color: #80037e;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+    background-color: #013d61;
+}
+
+.carrusel {
+    display: flex;
+    gap: 3.5rem;
+    overflow-x: auto;
+    padding: 1rem;
+    background-color: #013d61;
+    border-radius: 8px;
+    color: #fff;
+    width: 120%;
+    max-width: 800px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.elemento-carrusel {
+    flex: 0 0 auto;
+    text-align: center;
+    width: 150px;
+}
+
+.elemento-carrusel img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.nombre-foto {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
