@@ -1,8 +1,8 @@
 // Función para registrar datos
-function registrarUsuario(registrarse, tipoUsuario) {
-    registrarse.preventDefault();
+function registrarUsuario(event, tipoUsuario) {
+  event.preventDefault();
   
-    const form = registrarse.target;
+    const form = event.target;
     const nombre = form.querySelector('input[type="text"]').value || null;
     const correo = form.querySelector('input[type="email"]').value;
     const contraseña = form.querySelector('input[type="password"]').value;
@@ -42,9 +42,5 @@ function registrarUsuario(registrarse, tipoUsuario) {
       form.addEventListener('submit', (event) => registrarUsuario(event, 'vendedor'));
     });
   
-    // Formularios de inicio de sesión
-    document.querySelectorAll('.registro-fundacion form, .registro-cliente form, .registro-vendedor form').forEach((form) => {
-      form.addEventListener('submit', iniciarSesion);
-    });
   });
   
