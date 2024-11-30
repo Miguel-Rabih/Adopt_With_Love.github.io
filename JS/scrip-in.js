@@ -1,8 +1,8 @@
  // Función para verificar inicio de sesión
- function iniciarSesion(IniciarSesion) {
-    IniciarSesion.preventDefault();
+ function iniciarSesion(event) {
+  event.preventDefault();
   
-    const form = IniciarSesion.target;
+    const form = event.target;
     const correo = form.querySelector('input[type="email"]').value;
     const contraseña = form.querySelector('input[type="password"]').value;
   
@@ -15,7 +15,7 @@
     );
   
     if (usuarioEncontrado) {
-      window.location.href = '../templates/frame_18.html';
+      window.location.href = '/templates/frame_18.html';
     } else {
       alert('Correo o contraseña incorrectos.');
     }
