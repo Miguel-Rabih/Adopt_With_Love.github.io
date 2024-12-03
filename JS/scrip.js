@@ -20,7 +20,7 @@ function registrarUsuario(event, tipoUsuario) {
     usuarios.push(usuario);
     localStorage.setItem('usuarios', JSON.stringify(usuarios));
 
-    window.location.href = '/Adopt_With_Love.github.io/templates/frame_18.html';
+    window.location.href = '/Adopt_With_Love.github.io/templates/Home.html';
 
     form.reset();
   }
