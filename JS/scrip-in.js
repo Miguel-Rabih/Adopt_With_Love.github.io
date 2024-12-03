@@ -15,7 +15,7 @@
     );
   
     if (usuarioEncontrado) {
-      window.location.href = '../templates/frame_18.html';
+      window.location.href = '/Adopt_With_Love.github.io/templates/frame_18.html';
     } else {
       alert('Correo o contraseña incorrectos.');
     }
