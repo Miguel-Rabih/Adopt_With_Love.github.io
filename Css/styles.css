@@ -258,9 +258,7 @@ p{
 /* frame_1 */
 
 #tipo_usuario{
-    background-image: url('../img/fondo_TU.jpg');
-    height: 100%;
-    background-position: 50% 50%;
+       background-position: 50% 50%;
     background-size: cover;
 }
 
