@@ -258,7 +258,7 @@ p{
 /* frame_1 */
 
 #tipo_usuario{
-       background-position: 50% 50%;
+    background-position: 50% 50%;
     background-size: cover;
 }
 
@@ -409,7 +409,7 @@ input[type="submit"] {
         padding: 0;
         position: relative;
         display: grid;
-        grid-template-rows: 40%  40%;
+        grid-template-columns: max-content;
         align-items: center;
     }
     
