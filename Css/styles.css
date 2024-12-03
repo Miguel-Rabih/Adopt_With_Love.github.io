@@ -272,7 +272,7 @@ p{
     margin-left: 10%;
     background-color: #00000085;
     border-radius: 45px;
-    height: 50vh;
+    height: 50%;
     align-items: center;
 }
 
@@ -403,10 +403,8 @@ input[type="submit"] {
     .TU{
         padding: 0;
         position: relative;
-        left: 10%;
         display: grid;
         grid-template-columns: 40%  40%;
-        margin-left: 10%;
         align-items: center;
     }
     
@@ -415,7 +413,6 @@ input[type="submit"] {
         margin-left: 10%;
         background-color: #00000085;
         border-radius: 45px;
-        height: 50vh;
         align-items: center;
     }
     
