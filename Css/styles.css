@@ -6,6 +6,9 @@
 
 #indexc{
     background-image: url('../img/fondo_TU.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
 }
 
 a{
