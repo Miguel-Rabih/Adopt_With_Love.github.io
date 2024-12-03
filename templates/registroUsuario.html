@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Css/styles.css">
-    <title>Inicio de Sesión</title>
+    <title>Registro</title>
 </head>
 
 <header>
     <div class="blanco"></div>
     <div class="dec"></div>
     <div class="dec2"></div>
-    <h1>Inicio de Sesión</h1>
+    <h1>Registro</h1>
     <img src="../img/logo.png" alt="Logo" class="logo">
 </header>
 
@@ -19,10 +19,18 @@
 
     
     <div class="contenedor-registros">
-        <div class="registro">
+        <div class="registro-fundacion">
             <form method="post">
                 <div class="texto">
                     <p>Sección fundación</p>
+                </div>
+                <div class="username">
+                    <input type="text" required>
+                    <label>Nombre fundación</label>
+                </div>
+                <div class="username">
+                    <input type="text" required>
+                    <label>Nombre encargado</label>
                 </div>
                 <div class="username">
                     <input type="email" required>
@@ -33,14 +41,67 @@
                     <label>Contraseña</label>
                 </div>
                 <div class="recordar">¿Olvidó su contraseña?</div>
-                <input type="submit" value="Iniciar Secion" onclick="IniciarSesion()">
-                <div class="IniciarSesion">
-                    Quiero hacer el <a href="#">Registro</a>
+                <input type="submit" value="Registrarse" onclick="registrarUsuario()">
+                <div class="Iniciar-Secion">
+                    Quiero hacer el <a href="../templates/fame_865.html">Inicio de Secion</a>
                 </div>
             </form>
         </div>
     </div>
-    
+    <div class="divicion2"></div>
+    <div class="contenedor-registros">
+        <div class="registro-cliente">
+            <form method="post">
+                <div class="texto">
+                    <p>Sección cliente</p>
+                </div>
+                <div class="username">
+                    <input type="text" required>
+                    <label>Nombre</label>
+                </div>
+                <div class="username">
+                    <input type="email" required>
+                    <label>Correo</label>
+                </div>
+                <div class="contraseña">
+                    <input type="password" id="contraClient" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="recordar">¿Olvidó su contraseña?</div>
+                <input type="submit" value="Registrarse" onclick="registrarUsuario()">
+                <div class="Iniciar-Secion">
+                    Quiero hacer el <a href="../templates/fame_865.html">Inicio de Secion</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="divicion2"></div>
+    <div class="contenedor-registros">
+        <div class="registro-vendedor">
+            <form method="post">
+                <div class="texto">
+                    <p>Sección vendedor</p>
+                </div>
+                <div class="username">
+                    <input type="text" required>
+                    <label>Nombre </label>
+                </div>
+                <div class="username">
+                    <input type="email" required>
+                    <label>Correo</label>
+                </div>
+                <div class="contraseña">
+                    <input type="password" id="contraVend" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="recordar">¿Olvidó su contraseña?</div>
+                <input type="submit" value="Registrarse" onclick="registrarUsuario()">
+                <div class="Iniciar-Secion">
+                    Quiero hacer el <a href="../templates/fame_865.html">Inicio de Secion</a>
+                </div>
+            </form>
+        </div>
+    </div>
     <script src="../JS/scrip.js"></script>
 </body>
 </html>
