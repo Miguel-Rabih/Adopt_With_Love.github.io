@@ -392,8 +392,13 @@ input[type="submit"] {
 
 
 @media (max-width: 600px) {
+
+    #indexc{
+        background-image: url('../img/fondo_TU.jpg');
+    }
     
     #tipo_usuario{
+        margin-top: 45%;
         background-image: url('../img/fondo_TU.jpg');
         height: 100%;
         background-position: 50% 50%;
@@ -409,8 +414,7 @@ input[type="submit"] {
     }
     
     .TU button{
-        margin: 5%;
-        margin-left: 10%;
+        
         background-color: #00000085;
         border-radius: 45px;
         align-items: center;
