@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+#indexc{
+    background-image: url('../img/fondo_TU.jpg');
+}
+
 a{
     text-decoration: none;
 }
@@ -393,13 +397,10 @@ input[type="submit"] {
 
 @media (max-width: 600px) {
 
-    #indexc{
-        background-image: url('../img/fondo_TU.jpg');
-    }
+
     
     #tipo_usuario{
         margin-top: 45%;
-        background-image: url('../img/fondo_TU.jpg');
         height: 100%;
         background-position: 50% 50%;
         background-size: cover;
