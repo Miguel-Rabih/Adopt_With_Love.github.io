@@ -19,7 +19,8 @@ function registrarUsuario(event, tipoUsuario) {
     let usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
     usuarios.push(usuario);
     localStorage.setItem('usuarios', JSON.stringify(usuarios));
-
+    console.log(usuarios);
+    
     window.location.href = '/Adopt_With_Love.github.io/templates/Home.html';
 
     form.reset();
