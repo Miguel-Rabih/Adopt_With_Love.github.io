@@ -397,6 +397,9 @@ input[type="submit"] {
 
 
 @media (max-width: 890px) {
+    *{
+        transition: 0.2s;
+    }
     #tipo_usuario{
         height: 100%;
     }
