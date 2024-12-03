@@ -7,6 +7,9 @@
 a{
     text-decoration: none;
 }
+body{
+    height: 100%;
+}
 
 header{
     overflow: hidden;
@@ -385,4 +388,49 @@ input[type="submit"] {
         font-size: 0.3vh;
         font-weight: bold;
     }
+}
+
+
+@media (max-width: 600px) {
+    
+    #tipo_usuario{
+        background-image: url('../img/fondo_TU.jpg');
+        height: 100%;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+    
+    .TU{
+        padding: 0;
+        position: relative;
+        left: 10%;
+        display: grid;
+        grid-template-columns: 40%  40%;
+        margin-left: 10%;
+        align-items: center;
+    }
+    
+    .TU button{
+        margin: 5%;
+        margin-left: 10%;
+        background-color: #00000085;
+        border-radius: 45px;
+        height: 50vh;
+        align-items: center;
+    }
+    
+    .TU button img{
+        width: 70%;
+        height: 203px;
+        border-radius: 50%;
+    }
+    
+    .TU button h1{
+        position: relative;
+        left: 15%;
+        width: 50%;
+        border-radius: 30px;
+        color: #fff;
+    }
+    
 }
