@@ -51,8 +51,8 @@ h1{
 .dec {
     position: absolute;
     margin-right: 15vh;
-    top: 0px;
-    right: 44vh;
+    top: -2.5px;
+    right: 45vh;
     border-top: 7.8vh solid transparent;
     border-right: 14vh solid #008c8a;
     border-bottom: 0px solid transparent;
@@ -327,7 +327,7 @@ p{
 .registro-fundacion,
 .registro-cliente,
 .registro-vendedor,
-.registro {
+.registro, .iniciar_sesion {
 
     margin-top: 2%;
     margin-bottom: 6%;
@@ -406,11 +406,9 @@ input[type="submit"] {
     }
     
     .TU{
-        padding: 0;
-        position: relative;
-        display: grid;
-        grid-template-columns: max-content;
-        align-items: center;
+        display:flex;
+        flex-direction: column;
+        left: -10%;
     }
     
     .TU button{
@@ -421,7 +419,7 @@ input[type="submit"] {
     }
     
     .TU button img{
-        width: 70%;
+        width: 100%;
         height: 203px;
         border-radius: 50%;
     }
@@ -432,6 +430,7 @@ input[type="submit"] {
         width: 50%;
         border-radius: 30px;
         color: #fff;
+        font-size: 3vh;
     }
     
 }
