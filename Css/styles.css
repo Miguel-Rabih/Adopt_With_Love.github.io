@@ -386,6 +386,12 @@ input[type="submit"] {
         border-top: 8.1vh solid transparent;
     }
 }
+@media screen and (max-height: 426px) {
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 @media screen and (max-width: 600px) {
     
     h1{
