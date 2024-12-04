@@ -1,0 +1,10 @@
+body{
+    background-image: url("/IMAGENES/500.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+*{
+    overflow: hidden;
+}
