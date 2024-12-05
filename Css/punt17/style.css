@@ -382,8 +382,64 @@ h2{
         width: 90%;
         justify-content: center;
     }
+    #content {
+        height: 70vh;
+        align-items: center;
+        justify-content: center;
+    }
+    #principal ul{
+        padding: 2px;
+    }
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #principal ul li {
+        padding: 0%;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .imagen1 {
+        width: 100%;
+        border-radius: 40px 40px 0px 0px;
+        z-index: 2;
+        border-bottom: transparent;
+    }
+    #almacena-1 p {
+        padding: 30px 20px 20px 20px;
+        border-radius: 0px 0px 40px 40px;
+        border-top: transparent;
+        position: relative;
+        bottom: 33px;
+        text-align: left;
+    }
+    #almacena-1 .texto{
+        width: 90%;
+        justify-content: center;
+    }
+    .imagen3 {
+        width: 100%;
+        border-radius: 40px 40px 0px 0px;
+        z-index: 2;
+        border-bottom: transparent;
+    }
+    #almacena-3 p {
+        padding: 30px 20px 20px 20px;
+        border-radius: 0px 0px 40px 40px;
+        border-top: transparent;
+        position: relative;
+        bottom: 33px;
+        text-align: left;
+    }
+    #almacena-3 .texto{
+        width: 90%;
+        justify-content: center;
+    }
+    .almacena {
+        flex-direction: column;
+    }
 }
-@media screen and (max-width: 426px) {
+@media screen and (min-width: 321px) and (max-width: 426px) {
     #content {
         height: 70vh;
         align-items: center;
