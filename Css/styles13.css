@@ -251,6 +251,18 @@ footer {
         border-top: 8.1vh solid transparent;
     }
 }
+@media screen and (max-height: 769px) {
+    .informacion-extra {
+        max-width: 100%;
+        margin-right: auto;
+        margin-top: auto;
+        text-align: center;
+    }
+    .tarjeta-mascota {
+        justify-content: center;
+        height: 10px;
+    }
+}
 @media screen and (max-width: 600px) {
     
     h1{
@@ -273,10 +285,6 @@ footer {
         padding-left: 4px;
         padding-right: 4px;
     }
-    .tarjeta-mascota {
-        justify-content: center;
-        height: 10px;
-    }
     .contenedor-principal {
         gap: 0;
         padding: 0.5rem;
@@ -292,12 +300,6 @@ footer {
         width: 65%;
         display: flex;
         flex-direction: column;
-    }
-    .informacion-extra {
-        max-width: 100%;
-        margin-right: auto;
-        margin-top: auto;
-        text-align: center;
     }
     .informacion-extra p {
         font-size: 2vh;
