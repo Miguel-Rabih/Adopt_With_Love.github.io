@@ -383,15 +383,15 @@ h2{
         z-index: 2;
         border-bottom: transparent;
         position: relative;
-        bottom: 332px;
+        bottom: 245px;
     }
     #almacena-2 p {
         padding: 30px 20px 20px 20px;
         border-radius: 0px 0px 40px 40px;
         border-top: transparent;
         position: relative;
-        top: 200px;
-        text-align: left;
+        top: 243px;
+        text-align: right;
     }
     #almacena-2 .texto{
         width: 90%;
@@ -421,15 +421,15 @@ h2{
         z-index: 2;
         border-bottom: transparent;
         position: relative;
-        bottom: 332px;
+        bottom: 245px;
     }
     #almacena-4 p {
         padding: 30px 20px 20px 20px;
         border-radius: 0px 0px 40px 40px;
         border-top: transparent;
-        text-align: left;
+        text-align: right;
         position: relative;
-        top: 200px;
+        top: 243px;
     }
     #almacena-4 .texto{
         width: 90%;
