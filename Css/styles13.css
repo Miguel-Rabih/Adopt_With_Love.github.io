@@ -293,9 +293,9 @@ footer {
         flex-direction: column;
     }
     .informacion-extra {
-        max-width: 0;
-        margin-right: 0;
-        margin-top: 0;
+        max-width: auto;
+        margin-right: auto;
+        margin-top: auto;
         text-align: center;
     }
     .informacion-extra p {
