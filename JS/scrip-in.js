@@ -15,7 +15,7 @@
     );
   
     if (usuarioEncontrado) {
-      window.location.href = 'Miguel-Rabih/Adopt_With_Love.github.io/templates/Home.html';
+      window.location.href = 'https://miguel-rabih.github.io/Adopt_With_Love.github.io/templates/Home.html';
     } else {
       window.alert('Correo o contraseña incorrectos.');
     }
