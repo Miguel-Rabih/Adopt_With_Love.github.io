@@ -341,7 +341,7 @@ h2{
         font-weight: bold;
     }
 }
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 320px) {
     .imagen2 {
         width: 100%;
         border-radius: 40px 40px 0px 0px;
