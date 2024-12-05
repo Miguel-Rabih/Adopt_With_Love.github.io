@@ -342,6 +342,11 @@ h2{
     }
 }
 @media screen and (max-width: 426px) {
+    #content {
+        height: 70vh;
+        align-items: center;
+        justify-content: center;
+    }
     #principal ul{
         padding: 2px;
     }
@@ -370,6 +375,27 @@ h2{
     }
     #almacena-1 .texto{
         width: 90%;
+        justify-content: center;
+    }
+    .imagen2 {
+        width: 100%;
+        border-radius: 40px 40px 0px 0px;
+        z-index: 2;
+        border-bottom: transparent;
+        position: relative;
+        bottom: 332px;
+    }
+    #almacena-2 p {
+        padding: 30px 20px 20px 20px;
+        border-radius: 0px 0px 40px 40px;
+        border-top: transparent;
+        position: relative;
+        top: 200px;
+        text-align: left;
+    }
+    #almacena-2 .texto{
+        width: 90%;
+        justify-content: center;
     }
     .imagen3 {
         width: 100%;
@@ -387,6 +413,27 @@ h2{
     }
     #almacena-3 .texto{
         width: 90%;
+        justify-content: center;
+    }
+    .imagen4 {
+        width: 100%;
+        border-radius: 40px 40px 0px 0px;
+        z-index: 2;
+        border-bottom: transparent;
+        position: relative;
+        bottom: 332px;
+    }
+    #almacena-4 p {
+        padding: 30px 20px 20px 20px;
+        border-radius: 0px 0px 40px 40px;
+        border-top: transparent;
+        text-align: left;
+        position: relative;
+        top: 200px;
+    }
+    #almacena-4 .texto{
+        width: 90%;
+        justify-content: center;
     }
     .almacena {
         flex-direction: column;
