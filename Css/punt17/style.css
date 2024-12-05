@@ -15,7 +15,7 @@
     height: 10vh;
 }
 #inicio h1{
-    background-color: #008c8a;
+    background-color: #001b48;
     position: relative;
     left: 0;
     width: 20%;
@@ -237,13 +237,43 @@ h2{
     1px 1px #000000,
     1px -1px #000000;
 }
-.imagen{
+.imagen1{
     width: 80%;
     background-color: #001b48;
     border-radius: 40px;
     border: 2px solid #000;
 }
-.imagen img {
+.imagen2{
+    width: 80%;
+    background-color: #001b48;
+    border-radius: 40px;
+    border: 2px solid #000;
+}
+.imagen3{
+    width: 80%;
+    background-color: #001b48;
+    border-radius: 40px;
+    border: 2px solid #000;
+}
+.imagen4{
+    width: 80%;
+    background-color: #001b48;
+    border-radius: 40px;
+    border: 2px solid #000;
+}
+.imagen1 img {
+    width: 100%;
+    border-radius: 40px;
+}
+.imagen2 img {
+    width: 100%;
+    border-radius: 40px;
+}
+.imagen3 img {
+    width: 100%;
+    border-radius: 40px;
+}
+.imagen4 img {
     width: 100%;
     border-radius: 40px;
 }
@@ -294,4 +324,47 @@ h2{
     -1px 1px #000,
     1px 1px #000,
     1px -1px #000;
+}
+@media screen and (max-height: 620px) {
+    .dec {
+        right: 43.9vh;
+        border-top: 8.1vh solid transparent;
+    }
+}
+@media screen and (max-width: 600px) {
+    
+    h1{
+        width: 1%;
+        padding: 10px 20px 0;
+        font-size: 0.3vh;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 426px) {
+    .menu ul{
+        padding: 2px;
+    }
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu ul li {
+        padding: 0%;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .imagen1 {
+        width: 100%;
+        border-radius: 40px 40px 0px 0px;
+        z-index: 2;
+        border-bottom: transparent;
+    }
+    #almacena-1 p {
+        padding: 30px 20px 20px 20px;
+        border-radius: 0px 0px 40px 40px;
+        border-top: transparent;
+        position: relative;
+        bottom: 33px;
+        text-align: left;
+    }
 }
