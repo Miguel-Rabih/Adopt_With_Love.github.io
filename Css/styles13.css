@@ -263,6 +263,12 @@ footer {
         height: 0px;
         width: 0px;
     }
+    .contenedor-principal {
+        gap: 0;
+        padding: 0.5rem;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 600px) {
     
@@ -285,12 +291,6 @@ footer {
         padding: 0%;
         padding-left: 4px;
         padding-right: 4px;
-    }
-    .contenedor-principal {
-        gap: 0;
-        padding: 0.5rem;
-        flex-direction: column;
-        justify-content: center;
     }
     .foto-mascota {
         height: 32vh;
