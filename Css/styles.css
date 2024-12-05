@@ -415,9 +415,9 @@ input[type="submit"] {
         font-weight: 500;
     }
     .img_public {
-        left: 0;
+        left: auto;
         width: 100%;
-        height: 0;
+        height: auto;
     }
 }
 
