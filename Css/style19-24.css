@@ -290,5 +290,13 @@ footer {
     }
     .informacion-extra p {
         justify-content: left;
+        font-size: 2vh;
+        display: flex;
+    }
+    .contenedor-foto-principal{
+        height: auto;
+    }
+    .foto-principal{
+        height: auto;
     }
 }
