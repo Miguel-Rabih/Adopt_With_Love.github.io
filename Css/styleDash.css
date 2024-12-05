@@ -105,11 +105,11 @@ header {
 
 /* Mostrar menú y desplazar decoraciones hacia la izquierda */
 .decoracion:hover .dec {
-    right: 65vh;
+    right: 45vh;
 }
 
 .decoracion:hover .dec2 {
-    width: 65vh;
+    width: 45vh;
 }
 
 .decoracion:hover ul {
