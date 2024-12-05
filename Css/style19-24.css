@@ -277,12 +277,18 @@ footer {
         padding: 0.5em;
         flex-direction: column;
     }
-    .detalles-mascota {
+    .tarjeta-mascota {
         width: 0;
         height: 0;
         opacity: 0;
     }
     .informacion-extra{
         max-width: 100%;
+        margin-top: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
+    .informacion-extra p {
+        justify-content: left;
     }
 }
