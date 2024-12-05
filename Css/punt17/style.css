@@ -371,6 +371,23 @@ h2{
     #almacena-1 .texto{
         width: 90%;
     }
+    .imagen3 {
+        width: 100%;
+        border-radius: 40px 40px 0px 0px;
+        z-index: 2;
+        border-bottom: transparent;
+    }
+    #almacena-3 p {
+        padding: 30px 20px 20px 20px;
+        border-radius: 0px 0px 40px 40px;
+        border-top: transparent;
+        position: relative;
+        bottom: 33px;
+        text-align: left;
+    }
+    #almacena-3 .texto{
+        width: 90%;
+    }
     .almacena {
         flex-direction: column;
     }
