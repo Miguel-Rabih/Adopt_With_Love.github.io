@@ -334,7 +334,7 @@ h2{
 }
 @media screen and (max-width: 600px) {
     
-    h1{
+    #inicio h1{
         width: 1%;
         padding: 10px 20px 0;
         font-size: 0.3vh;
@@ -342,14 +342,14 @@ h2{
     }
 }
 @media screen and (max-width: 426px) {
-    .contenedor ul{
+    #principal ul{
         padding: 2px;
     }
     .logo{
         margin-left: auto;
         margin-right: auto;
     }
-    .contenedor ul li {
+    #principal ul li {
         padding: 0%;
         padding-left: 4px;
         padding-right: 4px;
