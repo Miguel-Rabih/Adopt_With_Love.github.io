@@ -342,6 +342,28 @@ h2{
     }
 }
 @media screen and (max-width: 426px) {
+    .imagen2 {
+        width: 100%;
+        border-radius: 40px 40px 0px 0px;
+        z-index: 2;
+        border-bottom: transparent;
+        position: relative;
+        bottom: 333px;
+    }
+    #almacena-2 p {
+        padding: 30px 20px 20px 20px;
+        border-radius: 0px 0px 40px 40px;
+        border-top: transparent;
+        position: relative;
+        top: 181px;
+        text-align: right;
+    }
+    #almacena-2 .texto{
+        width: 90%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 426px) {
     #content {
         height: 70vh;
         align-items: center;
