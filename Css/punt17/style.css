@@ -342,14 +342,14 @@ h2{
     }
 }
 @media screen and (max-width: 426px) {
-    .menu ul{
+    .contenedor ul{
         padding: 2px;
     }
     .logo{
         margin-left: auto;
         margin-right: auto;
     }
-    .menu ul li {
+    .contenedor ul li {
         padding: 0%;
         padding-left: 4px;
         padding-right: 4px;
@@ -367,5 +367,11 @@ h2{
         position: relative;
         bottom: 33px;
         text-align: left;
+    }
+    #almacena-1 .texto{
+        width: 100%;
+    }
+    .almacena {
+        flex-direction: column;
     }
 }
