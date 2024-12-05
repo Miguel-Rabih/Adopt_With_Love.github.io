@@ -243,6 +243,21 @@ footer {
     margin-top: 0.5rem;
     font-weight: bold;
 }
+@media screen and (max-height: 620px) {
+    .dec {
+        right: 43.9vh;
+        border-top: 8.1vh solid transparent;
+    }
+}
+@media screen and (max-width: 600px) {
+    
+    h1{
+        width: 1%;
+        padding: 10px 20px 0;
+        font-size: 0.3vh;
+        font-weight: bold;
+    }
+}
 @media screen and (max-width: 426px) {
     .menu ul{
         padding: 2px;
