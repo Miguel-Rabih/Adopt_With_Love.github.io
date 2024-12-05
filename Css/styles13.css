@@ -251,7 +251,7 @@ footer {
         border-top: 8.1vh solid transparent;
     }
 }
-@media screen and (max-height: 769px) {
+@media screen and (max-width: 769px) {
     .informacion-extra {
         max-width: 100%;
         margin-right: auto;
