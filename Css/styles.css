@@ -349,6 +349,10 @@ p{
     margin-top: 10px;
 }
 
+input{
+    color: #000;
+}
+
 .username input,
 .contraseña input {
     width: 95%;

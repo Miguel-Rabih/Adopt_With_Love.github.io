@@ -15,7 +15,7 @@
     height: 10vh;
 }
 #inicio h1{
-    background-color: #001b48;
+    background-color: #008c8a;
     position: relative;
     left: 0;
     width: 20%;
@@ -105,7 +105,7 @@ a{
 }
 
 #content {
-    background-image: url(/img/principal_fundacion.jpg);
+    background-image: url(../img/principal_fundacion.jpg);
     display: flex;
     justify-content:left;
     width: 100%;
